@@ -13,7 +13,7 @@ This repository serves as a data structures and algorithms reference/review in P
 
 
 ## Sorting Algorithms
-*Methods to arrange elements in a specific order.*
+*Methods to arrange elements in a specific order.* [See more](Sorting_algs/Sorting_algs.md)
 |    Algorithm   | Worst Case |  Best Case |                   Notes                  |
 |--------------|----------:|----------:|----------------------------------------|
 | Bubble Sort    |      O(n²) |       O(n) |        Swap adjacent elements repeatedly |
