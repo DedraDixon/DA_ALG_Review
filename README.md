@@ -4,8 +4,8 @@ This repository serves as a data structures and algorithms reference/review in P
 
 ## Searching Algorithms
 *Techniques to locate elements in data structures efficiently.* 
-|      Algorithm     | Worst Case | Best Case |             Notes                      |
-|------------------|-----------:|----------:|:---------------------------------------|
+|      Algorithm     | Worst Case | Best Case |                   Notes                  |
+|------------------|-----------:|------------:|----------------------------------------|
 | Linear Search      |       O(n) |      O(1) | Scan each element until found          |
 | Binary Search      |   O(log n) |      O(1) | Array must be sorted                   |
 | Jump Search        |      O(√n) |      O(1) | Jump ahead fixed steps in sorted array |
