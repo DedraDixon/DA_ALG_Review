@@ -1,4 +1,4 @@
-# Data Strcuture and Algorithms Review
+# Data Structure and Algorithms Review
 This repository serves as a data structures and algorithms reference/review in Python.
 
 
