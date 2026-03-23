@@ -2,6 +2,12 @@
 Searching algorithms are methods to arrange elements in a specific order.
 
 ## Linear Search
+With linear search, a list is passed to the algorithm. It looks at every individual element to check if it is equal to the target. 
+
+Worst Case: O(n)
+Best Case: O(1)
+
+[See Example](linear_search.py)
 
 
 ## Binary Search
