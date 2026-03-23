@@ -27,3 +27,9 @@ Best Case: O(1)
 [See Example](jump_search.py)
 
 ## Exponential Search
+Exponential search is first passed a sorted array. The first element in the array is checked to see if it is the target element. Like jump search, the array of items is then chunked into blocks where the last element in each block is checked, but as blocks are traversed, the size of the next block is double the size of the last block. This means the index checking order would be 0,1,2,4,8,16... . If the correct block is found, binary search is performed on that block to find the element.
+
+Worst Case: O(log n)
+Best Case: O(1)
+
+[See Example](exponential_search.py)
