@@ -19,6 +19,11 @@ Best Case: O(1)
 [See Example](binary_search.py)
 
 ## Jump Search
+Jump search is like binary search in that it must be passed a sorted array. The list is chunked down into smaller arrays of n elements. Until the algorithm finds out which subarray the target could be in, it only compares the last element in every subarray to the target. Once the potential subarray is found, linear search is applied to that array to determine if the target exists in it. If the step number overshoots the number of elements (we are searchi)
 
+Worst Case: O(log n)
+Best Case: O(1)
+
+[See Example](jump_search.py)
 
 ## Exponential Search
