@@ -6,10 +6,10 @@ This repository serves as a data structures and algorithms reference/review in P
 *Techniques to locate elements in data structures efficiently.* [See more](Searching_algs/Searching_algs.md)
 |      Algorithm     | Worst Case | Best Case |                   Notes                  |
 |------------------|-----------:|------------:|----------------------------------------|
-| Linear Search      |       O(n) |      O(1) | Scan each element until found          |
-| Binary Search      |   O(log n) |      O(1) | Array must be sorted                   |
-| Jump Search        |      O(√n) |      O(1) | Jump ahead fixed steps in sorted array |
-| Exponential Search |   O(log n) |      O(1) | Find range, then binary search         |
+| [Linear Search](linear_search.py)      |       O(n) |      O(1) | Scan each element until found          |
+| [Binary Search](binary_search.py)      |   O(log n) |      O(1) | Array must be sorted                   |
+| [Jump Search](jump_search.py)        |      O(√n) |      O(1) | Jump ahead fixed steps in sorted array |
+| [Exponential Search](exponential_search.py) |   O(log n) |      O(1) | Find range, then binary search         |
 
 
 ## Sorting Algorithms
