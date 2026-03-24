@@ -1,5 +1,4 @@
-# Function has O(n^2) runtime
-
+# Function works to repeatedly find the next smallest number in the list
 def find_smallest(arr):
     smallest_i = 0
     smallest = arr[0]
