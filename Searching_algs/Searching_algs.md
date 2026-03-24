@@ -19,6 +19,17 @@ Best Case: O(1)
 [See Example](binary_search.py)
 
 ## Jump Search
+Jump search is like binary search in that it must be passed a sorted array. The list is chunked down into smaller arrays of n elements. Until the algorithm finds out which subarray the target could be in, it only compares the last element in every subarray to the target. Once the potential subarray is found, linear search is applied to that array to determine if the target exists in it. 
 
+Worst Case: O(log n)
+Best Case: O(1)
+
+[See Example](jump_search.py)
 
 ## Exponential Search
+Exponential search is first passed a sorted array. The first element in the array is checked to see if it is the target element. Like jump search, the array of items is then chunked into blocks where the last element in each block is checked, but as blocks are traversed, the size of the next block is double the size of the last block. This means the index checking order would be 0,1,2,4,8,16... . If the correct block is found, binary search is performed on that block to find the element.
+
+Worst Case: O(log n)
+Best Case: O(1)
+
+[See Example](exponential_search.py)
